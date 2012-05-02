@@ -9,6 +9,8 @@ Use wget to get install script, and execute the script.
 ## REQUREMENTS
 
  [Command-T](https://github.com/wincent/Command-T) need ruby to compile it.
+ [ack.vim](https://github.com/mileszs/ack.vim) need [ack](http://betterthangrep.com/), follow this [link](http://betterthangrep.com/install/) to install it.
+ [Markdown Preview](https://github.com/mkitt/markdown-preview.vim) need [discount](http://www.pell.portland.or.us/~orc/Code/discount)
 
 ## PLUGINS
 
@@ -99,4 +101,29 @@ Use wget to get install script, and execute the script.
   Useful commands:  
     `[count],cc` Comment out the current line or text selected in visual mode.  
     `[count],cu` Uncomments the selected line(s).  
+
+* [ColorV](https://github.com/Rykka/ColorV): A vim plugin with which you can easily handling with colors. 
+
+        For example:
+
+        When editing text like '#9370D8' or 'LightSlateGray' or 'rgb(216,112,147)'
+        Press '<leader>ce'(':ColorVEdit') in 'LightSlateGray',
+        this will open ColorV window showing the text's color.
+        And after picking a color and close the window,
+        The text will be changed to your picked color.
+ 
+* [ack.vim](https://github.com/mileszs/ack.vim): Vim plugin for the Perl module / CLI script [ack](http://betterthangrep.com/)
+
+    This plugin is a front for the Perl module App::Ack. Ack can be used as a replacement for 99% of the uses of grep.
+
+    * `:Ack [options] {pattern} [{directory}]` - grep for the pattern in side directory and open result in a QuickFix window
+    * `:Ack --ruby ...` - search only ruby files.
+    * `:h Ack` - more help about Ack
+
+* [Markdown Preview](https://github.com/mkitt/markdown-preview.vim): Preview markdown files in the browser from vim.
+
+  Useful commands:  
+    `,md` Generate a temporary HTML files.  
+    `,mc` Clear out all temporary files.  
+    `,mv` Call a browser to preview the temporary HTML files.
 

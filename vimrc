@@ -37,6 +37,8 @@ Bundle 'scrooloose/nerdtree'
 " UI Additions {
 " https://github.com/Lokaltog/vim-powerline
 Bundle 'Lokaltog/vim-powerline'
+" https://github.com/Rykka/ColorV
+Bundle 'Rykka/ColorV'
 "}
 
 " Commands {
@@ -62,6 +64,8 @@ Bundle 'javacomplete'
 Bundle 'pangloss/vim-javascript'
 " https://github.com/hallison/vim-markdown
 Bundle 'hallison/vim-markdown'
+" https://github.com/mkitt/markdown-preview.vim
+Bundle 'mkitt/markdown-preview.vim'
 " https://github.com/sukima/xmledit
 Bundle 'sukima/xmledit'
 " https://github.com/vim-scripts/gtk-vim-syntax
@@ -91,6 +95,8 @@ Bundle 'snipmate-snippets'
 "}
 " https://github.com/garbas/vim-snipmate
 Bundle 'garbas/vim-snipmate'
+" https://github.com/mileszs/ack.vim
+Bundle 'mileszs/ack.vim'
 "}
 
 
@@ -184,7 +190,7 @@ set nowrap                          " do not wrap lines
 set showcmd                         " display incomplete commands
 set showmode                        " show current mode
 set showmatch                       " Cursor shows matching ) and }
-set matchtime=5                     " How many tenths of a second to blink "
+set matchtime=5                     " How many tenths of a second to blink
 " wildmenu: ignore these extensions
 set wildignore+=*.orig,*.org,*.bak,*.o,*.obj,*.exe,*.so,*.dll,*.pyc,.svn,.hg,.bzr,.git,.sass-cache,*.class
 set wildmenu                        " command-line completion in an enhanced mode
@@ -254,8 +260,8 @@ endfunction
 "                    function and keymap
 "-------------------------------------------------------------------------
 " set leader to ,
-"let mapleader=","
-"let g:mapleader=","
+let mapleader=","
+let g:mapleader=","
 
 " open the error console
 map <leader>cc :botright cope<CR>
@@ -402,4 +408,17 @@ nmap <Leader>bi :BundleInstall<CR>
 nmap <Leader>bu :BundleInstall!<CR>
 " clean unusased plugins
 nmap <Leader>bc :BundleClean<CR>
+
+" --- Markdown Preview
+function! PreviewMarkdown()
+    let s:word = g:MarkdownPreviewTMP.expand("%:r").".html"
+    let s:cmd = "silent !firefox ".s:word."&"
+    "echo s:cmd
+    execute s:cmd
+    redraw!
+endfunction
+
+nmap <Leader>md :MDP<CR>
+nmap <Leader>mc :CMDP<CR>
+nmap <Leader>mv :call PreviewMarkdown()<CR>
 
