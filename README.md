@@ -16,8 +16,8 @@ Use wget to get install script, and execute the script.
 
 * [Nerd Tree](http://www.vim.org/scripts/script.php?script_id=1658): A tree explorer plugin for navigating the filesystem.
 
-  Useful commands:
-    `:Bookmark [name]` - bookmark any directory as name
+  Useful commands:  
+    `:Bookmark [name]` - bookmark any directory as name  
     `:NERDTree [name]` - open bookmark name in NERD Tree
 
 * [AutoClose](http://www.vim.org/scripts/script.php?script_id=1849):  Inserts matching bracket, paren, brace or quote.
@@ -49,43 +49,43 @@ Use wget to get install script, and execute the script.
 
 * [EasyMotion](https://github.com/Lokaltog/vim-easymotion): An easy way to jump to a word.
 
-  Useful commands:
-    `,,w` forward EasyMotion
-    `,,b` backward EasyMotion
+  Useful commands:  
+    `,,w` forward EasyMotion  
+    `,,b` backward EasyMotion  
 
 * [TagBar](http://majutsushi.github.com/tagbar/): browsing the tags of source files ordered by classes.
 
-  Useful commands:
-    `F12` toggles the TagBar
+  Useful commands:  
+    `F12` toggles the TagBar  
 
 * [Indent Motion](https://github.com/vim-scripts/indent-motion): Vim motions to the start and end of the current indentation-delimited block.
 
-  Useful commands:
-    `,]` move to the end of the current indentation-delimited block (very useful in Python)
-    `,[` move to the beginning of the current indentation-delimited block (very useful in Python)
+  Useful commands:  
+    `,]` move to the end of the current indentation-delimited block (very useful in Python)  
+    `,[` move to the beginning of the current indentation-delimited block (very useful in Python)  
 
 * [PowerLine](https://github.com/Lokaltog/vim-powerline): Powerline is a utility plugin which allows you to create better-looking, more functional vim statuslines.
 
 * [VisIncr](https://github.com/vim-scripts/VisIncr): The visincr plugin facilitates making a column of increasing or decreasing numbers, dates, or daynames.
 
-  `Example 1:`
-      :I                              :I 2
-                Use ctrl-V to                   Use ctrl-V to
-    Original    Select, :I          Original    Select, :I 2
-       8            8                  8            8
-       8            9                  8            10
-       8            10                 8            12
-       8            11                 8            14
-       8            12                 8            16
-  `Example 2:`
-       :I -1                           :I -2
-                Use ctrl-V to                   Use ctrl-V to
-    Original    Select, :I -1       Original    Select, :I -3
-       8            8                  8            8
-       8            7                  8            5
-       8            6                  8            2
-       8            5                  8            -1
-       8            4                  8            -4
+  `Example 1:`  
+      :I                              :I 2  
+                Use ctrl-V to                   Use ctrl-V to  
+    Original    Select, :I          Original    Select, :I 2  
+       8            8                  8            8  
+       8            9                  8            10  
+       8            10                 8            12  
+       8            11                 8            14  
+       8            12                 8            16  
+  `Example 2:`  
+       :I -1                           :I -2  
+                Use ctrl-V to                   Use ctrl-V to  
+    Original    Select, :I -1       Original    Select, :I -3  
+       8            8                  8            8  
+       8            7                  8            5  
+       8            6                  8            2  
+       8            5                  8            -1  
+       8            4                  8            -4  
 
 * [Javascript](https://github.com/pangloss/vim-javascript): Vastly improved vim's javascript indentation.
 
@@ -96,6 +96,6 @@ Use wget to get install script, and execute the script.
 * [NERD Commenter](https://github.com/scrooloose/nerdcommenter): Vim plugin for intensely orgasmic commenting.
 
   Useful commands:
-    `[count],cc` Comment out the current line or text selected in visual mode.
-    `[count],cu` Uncomments the selected line(s).
+    `[count],cc` Comment out the current line or text selected in visual mode.  
+    `[count],cu` Uncomments the selected line(s).  
 
