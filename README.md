@@ -68,7 +68,7 @@ Use wget to get install script, and execute the script.
 
 * [VisIncr](https://github.com/vim-scripts/VisIncr): The visincr plugin facilitates making a column of increasing or decreasing numbers, dates, or daynames.
 
-  `Example 1:`  
+  `Example 1:  
           :I                              :I 2  
                     Use ctrl-V to                   Use ctrl-V to  
         Original    Select, :I          Original    Select, :I 2  
@@ -76,8 +76,9 @@ Use wget to get install script, and execute the script.
            8            9                  8            10  
            8            10                 8            12  
            8            11                 8            14  
-           8            12                 8            16  
-  `Example 2:`  
+           8            12                 8            16`  
+
+  `Example 2:
            :I -1                           :I -2  
                     Use ctrl-V to                   Use ctrl-V to  
         Original    Select, :I -1       Original    Select, :I -3  
@@ -85,7 +86,7 @@ Use wget to get install script, and execute the script.
            8            7                  8            5  
            8            6                  8            2  
            8            5                  8            -1  
-           8            4                  8            -4  
+           8            4                  8            -4`  
 
 * [Javascript](https://github.com/pangloss/vim-javascript): Vastly improved vim's javascript indentation.
 
