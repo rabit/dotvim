@@ -1,24 +1,28 @@
 
-## INSTALL
+INSTALL
+-------
 
 Use wget to get install script, and execute the script.
 
     wget -c https://raw.github.com/rabit/dotvim/master/install.sh
     ./install.sh
 
-## REQUREMENTS
+REQUREMENTS
+-----------
 
 * [Command-T](https://github.com/wincent/Command-T) need ruby to compile it.
 * [ack.vim](https://github.com/mileszs/ack.vim) need [ack](http://betterthangrep.com/), follow this [link](http://betterthangrep.com/install/) to install it.
 * [Markdown Preview](https://github.com/mkitt/markdown-preview.vim) need [discount](http://www.pell.portland.or.us/~orc/Code/discount).
 
-## PLUGINS
+PLUGINS
+-------
 
 * [Vundle](https://github.com/gmarik/vundle): A plugin manager for vim.
 
 * [Nerd Tree](http://www.vim.org/scripts/script.php?script_id=1658): A tree explorer plugin for navigating the filesystem.
 
   Useful commands:  
+    `<F11>` - open directory browser  
     `:Bookmark [name]` - bookmark any directory as name  
     `:NERDTree [name]` - open bookmark name in NERD Tree
 
@@ -26,12 +30,25 @@ Use wget to get install script, and execute the script.
 
 * [vim-surround](https://github.com/tpope/vim-surround/blob/master/doc/surround.txt): deal with pairs of surroundings.
 
+    * `dsX` - delete surround X
+    * `csXY` - change surround X with Y
+    * `s/S` in visual mode - wrap selection
+    * `ysMovementX` - surround movement with X
+
+    You should REALLY read the docs if you want to use this one
+
 * [matchit](http://www.vim.org/scripts/script.php?script_id=39): extended % matching for HTML, LaTeX, and many other languages. 
 
 * [xmledit](http://www.vim.org/scripts/script.php?script_id=301): XML/HTML tags will be completed automatically.
 
 * [Command-T](https://github.com/wincent/Command-T): open and navigate between files with `cmd-t`.
-  
+
+    * `,t` - find file
+    * while at the finder prompt:
+      * `Ctrl-Enter` - open file in a new split
+      * `Ctrl-v` - open file in a new vertical split
+      * `Esc` - cancel
+
 * [SuperTab](http://www.vim.org/scripts/script.php?script_id=1643): Do all your insert-mode completion with Tab.
 
 * [snipMate](http://www.vim.org/scripts/script.php?script_id=2540): TextMate-style snippets for Vim
@@ -126,4 +143,32 @@ Use wget to get install script, and execute the script.
     `,md` Generate a temporary HTML files.  
     `,mc` Clear out all temporary files.  
     `,mv` Call a browser to preview the temporary HTML files.
+
+Misc
+----
+
+The following is a list of commands and key bindings that I personally find interesting
+stored for easy refreshing my memory of them. there is no much 'system' to it, just
+randomly chosen bits of vim goodness.
+
+
+* `ga` print ascii value of character under the cursor
+* `g#` like "#", but without using "\<" and "\>"
+* `g<` display previous command output
+* `zt` scroll cursor line to top
+* `zz` scroll cursor line to center
+* `zb` scroll cursor line to bottom
+* `CTRL-W x` exchange current window with n-th window (or next if no count given)
+* `gv` reselect last selection
+* `gt` next tab
+* `gT` prev tab
+* `ci` change inside delimiters
+* `di` delete inside delimiters
+* `@@` execute last macro
+* `"xyy` copy line into `x` register (replace x with any other)
+* `<C-R>x` while in insert mote will paste content of register x (replace x with any other)
+* `"xp` paste from register x
+* `:reg` Display the contents of all numbered and named registers.
+
+
 

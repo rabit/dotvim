@@ -192,7 +192,7 @@ set showmode                        " show current mode
 set showmatch                       " Cursor shows matching ) and }
 set matchtime=5                     " How many tenths of a second to blink
 " wildmenu: ignore these extensions
-set wildignore+=*.orig,*.org,*.bak,*.o,*.obj,*.exe,*.so,*.dll,*.pyc,.svn,.hg,.bzr,.git,.sass-cache,*.class
+set wildignore+=*.orig,*.org,*.bak,*.o,*.obj,*.exe,*.so,*.dll,*.pyc,.svn,.hg,.bzr,.git,.sass-cache,*.class,*.bmp,*.jpg,*.jpeg
 set wildmenu                        " command-line completion in an enhanced mode
 set wildchar=<TAB>                  " start wild expansion in the command line using <TAB>
 set backspace=indent,eol,start      " backspacing over everything in insert mode
@@ -354,7 +354,7 @@ function! ExecCtags()
     redraw!
 endfunction
 
-map <silent> <F11> :call ExecCtags()<CR>
+map <silent> <F10> :call ExecCtags()<CR>
 
 " ,g generates the header guard
 map <leader>g :call IncludeGuard()<CR>
@@ -422,3 +422,5 @@ nmap <Leader>md :MDP<CR>
 nmap <Leader>mc :CMDP<CR>
 nmap <Leader>mv :call PreviewMarkdown()<CR>
 
+" --- NERDTree
+nnoremap <silent> <F11> :NERDTreeToggle<CR>
