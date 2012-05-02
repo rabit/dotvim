@@ -3,8 +3,8 @@
 
 Use wget to get install script, and execute the script.
 
-    `wget -c https://raw.github.com/rabit/dotvim/master/install.sh`
-    `./install.sh`
+    wget -c https://raw.github.com/rabit/dotvim/master/install.sh
+    ./install.sh
 
 ## REQUREMENTS
 
@@ -58,7 +58,7 @@ Use wget to get install script, and execute the script.
   Useful commands:
     `F12` toggles the TagBar
 
-* [Indent Motion](https://github.com/vim-scripts/indent-motion): Vim motions to the start and end of the current indentation-delimited block 
+* [Indent Motion](https://github.com/vim-scripts/indent-motion): Vim motions to the start and end of the current indentation-delimited block.
 
   Useful commands:
     `,]` move to the end of the current indentation-delimited block (very useful in Python)
@@ -68,8 +68,8 @@ Use wget to get install script, and execute the script.
 
 * [VisIncr](https://github.com/vim-scripts/VisIncr): The visincr plugin facilitates making a column of increasing or decreasing numbers, dates, or daynames.
 
-  Example:
-`      :I                              :I 2
+  `Example 1:`
+      :I                              :I 2
                 Use ctrl-V to                   Use ctrl-V to
     Original    Select, :I          Original    Select, :I 2
        8            8                  8            8
@@ -77,16 +77,15 @@ Use wget to get install script, and execute the script.
        8            10                 8            12
        8            11                 8            14
        8            12                 8            16
-
+  `Example 2:`
        :I -1                           :I -2
-	            Use ctrl-V to                   Use ctrl-V to
+                Use ctrl-V to                   Use ctrl-V to
     Original    Select, :I -1       Original    Select, :I -3
        8            8                  8            8
        8            7                  8            5
        8            6                  8            2
        8            5                  8            -1
-       8            4                  8            -4`
-
+       8            4                  8            -4
 
 * [Javascript](https://github.com/pangloss/vim-javascript): Vastly improved vim's javascript indentation.
 
