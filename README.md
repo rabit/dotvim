@@ -16,7 +16,7 @@ PLUGINS
 
   Useful commands:
     `:Bookmark [name]` - bookmark any directory as name
-    `:NERDTree [name]` - open bookmark [name] in NERD Tree
+    `:NERDTree [name]` - open bookmark name in NERD Tree
 
 * [AutoClose](http://www.vim.org/scripts/script.php?script_id=1849):  Inserts matching bracket, paren, brace or quote.
 
