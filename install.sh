@@ -14,7 +14,7 @@ die() {
 [ -d "$VIMHOME" ] && die "$VIMHOME already exists."
 
 cd ~
-#git clone https://github.com/rabit/dotvim.git "$VIMHOME"
+git clone https://github.com/rabit/dotvim.git "$VIMHOME"
 mkdir -p "$VIMHOME"/bundle
 git clone https://github.com/gmarik/vundle.git "$VIMHOME"/bundle/vundle
 ln -sfn "$VIMHOME"/vimrc .vimrc
