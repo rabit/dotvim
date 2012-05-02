@@ -8,9 +8,9 @@ Use wget to get install script, and execute the script.
 
 ## REQUREMENTS
 
- [Command-T](https://github.com/wincent/Command-T) need ruby to compile it.
- [ack.vim](https://github.com/mileszs/ack.vim) need [ack](http://betterthangrep.com/), follow this [link](http://betterthangrep.com/install/) to install it.
- [Markdown Preview](https://github.com/mkitt/markdown-preview.vim) need [discount](http://www.pell.portland.or.us/~orc/Code/discount)
+    [Command-T](https://github.com/wincent/Command-T) need ruby to compile it.
+    [ack.vim](https://github.com/mileszs/ack.vim) need [ack](http://betterthangrep.com/), follow this [link](http://betterthangrep.com/install/) to install it.
+    [Markdown Preview](https://github.com/mkitt/markdown-preview.vim) need [discount](http://www.pell.portland.or.us/~orc/Code/discount)
 
 ## PLUGINS
 
