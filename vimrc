@@ -38,7 +38,7 @@ Bundle 'scrooloose/nerdtree'
 " https://github.com/Lokaltog/vim-powerline
 Bundle 'Lokaltog/vim-powerline'
 " https://github.com/Rykka/ColorV
-Bundle 'Rykka/ColorV'
+"Bundle 'Rykka/ColorV'
 "}
 
 " Commands {

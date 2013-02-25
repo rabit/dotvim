@@ -1,21 +1,24 @@
 
-INSTALL
--------
+#INSTALL
 
 Use wget to get install script, and execute the script.
 
-    wget -c https://raw.github.com/rabit/dotvim/master/install.sh
-    ./install.sh
+        wget -c https://raw.github.com/rabit/dotvim/master/install.sh
+        ./install.sh
 
-REQUREMENTS
------------
+#REQUREMENTS
 
+* vim must enable ruby support
 * [Command-T](https://github.com/wincent/Command-T) need ruby to compile it.
 * [ack.vim](https://github.com/mileszs/ack.vim) need [ack](http://betterthangrep.com/), follow this [link](http://betterthangrep.com/install/) to install it.
 * [Markdown Preview](https://github.com/mkitt/markdown-preview.vim) need [discount](http://www.pell.portland.or.us/~orc/Code/discount).
+* for ubuntu
 
-PLUGINS
--------
+        $sudo apt-get install vim-nox
+        $sudo apt-get install discount
+        $sudo apt-get install ack-grep
+
+#PLUGINS
 
 * [Vundle](https://github.com/gmarik/vundle): A plugin manager for vim.
 
@@ -144,8 +147,7 @@ PLUGINS
     `,mc` Clear out all temporary files.  
     `,mv` Call a browser to preview the temporary HTML files.
 
-Misc
-----
+#Misc
 
 The following is a list of commands and key bindings that I personally find interesting
 stored for easy refreshing my memory of them. there is no much 'system' to it, just
