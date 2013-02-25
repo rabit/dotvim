@@ -4,6 +4,7 @@
 Use wget to get install script, and execute the script.
 
         wget -c https://raw.github.com/rabit/dotvim/master/install.sh
+        chmod u+x install.sh
         ./install.sh
 
 #REQUREMENTS
@@ -17,6 +18,7 @@ Use wget to get install script, and execute the script.
         $sudo apt-get install vim-nox
         $sudo apt-get install discount
         $sudo apt-get install ack-grep
+        $sudo apt-get install ruby1.8-dev (replace 1.8 with whatever version you're running - see ruby -v)
 
 #PLUGINS
 
