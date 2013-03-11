@@ -97,6 +97,8 @@ Bundle 'snipmate-snippets'
 Bundle 'garbas/vim-snipmate'
 " https://github.com/mileszs/ack.vim
 Bundle 'mileszs/ack.vim'
+" https://github.com/jnwhiteh/vim-golang
+Bundle 'jnwhiteh/vim-golang'
 "}
 
 
