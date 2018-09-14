@@ -26,7 +26,7 @@ ln -sfn "$VIMHOME"/bundle/xmledit/ftplugin/xml.vim "$VIMHOME"/bundle/xmledit/ftp
 mkdir -p "$VIMHOME"/bundle/gtk-vim-syntax/after/syntax
 cp -f "$VIMHOME"/bundle/gtk-vim-syntax/c.vim.example "$VIMHOME"/bundle/gtk-vim-syntax/after/syntax/c.vim
 
-cd "$VIMHOME"/bundle/Command-T/ruby/command-t
+cd "$VIMHOME"/bundle/Command-T/ruby/command-t/ext/command-t
 (ruby extconf.rb && make) || warn "Can't compile Command-T."
 
 cd ~
