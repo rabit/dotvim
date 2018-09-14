@@ -30,3 +30,4 @@ cd "$VIMHOME"/bundle/Command-T/ruby/command-t/ext/command-t
 (ruby extconf.rb && make) || warn "Can't compile Command-T."
 
 cd ~
+mkdir -p backup/recover
