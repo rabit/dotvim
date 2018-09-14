@@ -145,7 +145,7 @@ au FileType Makefile set noexpandtab
 " backup setting {
 set backup
 set backupext=.bak
-set patchmode=.orig
+"set patchmode=.orig
 set backupdir=~/backup/recover
 "}
 
